@@ -1,9 +1,9 @@
-# Probability Enhanced Entropy_acoustic_feature_extraction
+# Probability Enhanced Entropy_Acoustic_Feature_Extraction
 This repository contains MatLab implementation for Probability Enhanced Entropy (PEE) acoustic feature extraction
 
 # Implementation Steps
 This feature has five (05) significant steps, 
-1. The segmented audio sample taken as input and normalised between -1 to 1
+1. The segmented audio sample (wav file) taken as input and normalised between -1 to 1
 2. Then quantised into different decision levels by dividing the amplitude range with the size of each interval
 3. The number of occurrences in each level is counted
 4. Probability is calculated for each level
